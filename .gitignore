@@ -1,0 +1,7 @@
+node_modules
+reports
+screenshots
+package.json
+package-lock.json
+logs
+fixtures
