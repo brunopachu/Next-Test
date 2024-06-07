@@ -1,0 +1,21 @@
+{
+  "name": "sibs_project",
+  "version": "1.0.0",
+  "description": "projecto de testes para o site MBWay (SIBS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:qase": "QASE_MODE=testops npx cypress run"
+  },
+  "author": "Bruno Pachu",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.11.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^1.6.4",
+    "cypress-qase-reporter": "^2.0.2"
+  }
+}
